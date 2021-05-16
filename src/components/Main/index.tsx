@@ -2,7 +2,7 @@ import * as S from './styles'
 
 const Main = ({
   title = 'React Avançado',
-  descripton = 'Typescript, ReactJs, NextJs e Styled Components'
+  description = 'Typescript, ReactJs, NextJs e Styled Components'
 }) => (
   <S.Wrapper>
     <S.Logo
@@ -11,7 +11,7 @@ const Main = ({
     />
 
     <S.Title>{title}</S.Title>
-    <S.Description>{descripton}</S.Description>
+    <S.Description>{description}</S.Description>
 
     <S.ImgMain
       src="/img/hero-illustration.svg"

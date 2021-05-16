@@ -25,6 +25,7 @@
         "sourceType": "module"
     },
     "plugins": [
+        "prettier",
         "react",
         "@typescript-eslint",
         "react-hooks"

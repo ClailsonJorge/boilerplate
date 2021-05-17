@@ -2,7 +2,8 @@
 
 # dependencies
 /node_modules
-/.vscode
+/public/sw.js
+/public/workbox-ea903bce.js
 /.pnp
 .pnp.js
 
@@ -33,3 +34,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+#storybook
+/storybook-static
